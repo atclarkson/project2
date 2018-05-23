@@ -1,0 +1,45 @@
+h1 {
+  color: red;
+}
+
+#gameBoard {
+  max-width: 750px;
+  border-radius: 15px;
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+}
+
+.card {
+  width: 175px;
+  height: 175px;
+  border-radius: 15px;
+  margin: 5px;
+}
+
+.card-icon  {
+  display: none;
+}
+
+.face-down {
+  background-image: linear-gradient(to right top, #0e489f, #45449a, #613f93, #763b8b, #863781);
+}
+
+.red-card {
+  background-color: red;
+}
+
+.blue-card {
+  background-color: blue;
+}
+
+.green-card {
+  background-color: green;
+}
+
+.yellow-card {
+  background-color: yellow;
+}
